@@ -1,3 +1,6 @@
+// Crear un objeto Persona con los siguientes 
+// datos (nombre, apellidos, edad, género, dirección)
+
 const assert = require('assert').strict;
 
 function createPerson(name, lastname, years, gender, address) {

@@ -1,3 +1,11 @@
+// Declarar un array numérico (entero) y crear un método que imprima:
+// La suma de todos los elementos
+// El elemento más grande
+// El elemento más pequeño
+// La media de los elementos
+
+
+
 function doCalculation(array) {
 
 
