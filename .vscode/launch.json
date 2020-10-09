@@ -5,7 +5,44 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Program",
+            "name": "9-Seconds_converter",
+            "program": "${workspaceFolder}\\03_fundamentos\\09_seconds_converter\\main.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "8-Next_pairs",
+            "program": "${workspaceFolder}\\03_fundamentos\\08_next_pairs\\main.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "7-Abs",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\03_fundamentos\\07_abs\\main.js"
+        },
+        {
+            "name": "6-Insert_if_not_exists",
+            "program": "${workspaceFolder}\\03_fundamentos\\06_insert_if_not_exists\\main.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+        {
+            "name": "5-Math_array",
             "program": "${workspaceFolder}\\03_fundamentos\\05_math_array\\main.js",
             "request": "launch",
             "skipFiles": [
@@ -14,7 +51,7 @@
             "type": "pwa-node"
         },
         {
-            "name": "Launch Program",
+            "name": "4-Person",
             "program": "${workspaceFolder}\\03_fundamentos\\04_person\\main.js",
             "request": "launch",
             "skipFiles": [
@@ -23,12 +60,10 @@
             "type": "pwa-node"
         },
 
-
-
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "3-Calculator",
             "skipFiles": [
                 "<node_internals>/**"
             ],
