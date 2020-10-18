@@ -41,7 +41,41 @@ let data = [{
         "democracy": "82882"
     },
 ]
-for (let i = 0; i < data.length; i++) {
-    console.log(`${data[i]}`)
-    console.log(JSON.stringify(data[i]))
-}
+
+
+// for (let i = 0; i < data.length; i++) {
+//     //console.log(`${data[i]}`)
+//     console.log(JSON.stringify(data[i]))
+// }
+
+
+// let print = function(item) {
+//     console.log(item)
+// }
+// data.forEach(print)
+
+// data.forEach(item => console.log(item))
+
+
+// let republicVotes = data.map(value => parseInt(value.republic))
+// let republicState = data.map(value => value.state)
+
+// votos republic > democracy
+// let filtered = data
+//     .filter(state => parseInt(state.republic) > parseInt(state.democracy))
+//     .map(value => value.state)
+
+
+// let filtered = data
+//     .map(state => parseInt(state.republic))
+// filtered = filtered
+//     .reduce((total, value) => total + value)
+// console.log(filtered)
+
+
+//total votos republicanos en los estados que haya ganado
+let totalVotesRepublic = data
+    .filter(state => parseInt(state.republic) > parseInt(state.democracy))
+    .map(value => parseInt(value.republic))
+    .reduce((total, value) => total + value)
+console.log(totalVotesRepublic)

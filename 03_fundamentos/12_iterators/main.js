@@ -35,18 +35,27 @@ function iterateSimple() {
 }
 
 function iterateForEach() {
-    pilots.forEach(print)
+    pilots.forEach(pilot => console.log(`${JSON.stringify(pilot)}`))
 }
 
 function mapIds() {
-    return
+    return pilots
+        .map(value => value.id)
 }
 
-function rebels() {}
+function rebels() {
+    return pilots.filter(pilot => pilot.faction === 'Rebels')
+}
 
-function totalFaction(faction) {}
+function totalFaction(faction) {
+    return pilots.filter(pilot => pilot.faction === faction).length
+}
 
-function avgYears(faction) {}
+function avgYears(faction) {
+    return pilots.filter(pilot => pilot.faction === faction)
+        .map(pilot => pilot.years)
+        .reduce((total, value) => total + value) / totalFaction(faction)
+}
 
 // use console.log
 iterateSimple()

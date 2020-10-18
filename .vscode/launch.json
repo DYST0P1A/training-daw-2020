@@ -22,15 +22,14 @@
             ],
             "type": "pwa-node"
         },
-
         {
-            "name": "11_Custom_filter",
-            "program": "${workspaceFolder}\\03_fundamentos\\11_custom_filter\\main.js",
+            "type": "node",
             "request": "launch",
+            "name": "11_Custom_filter",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "type": "node"
+            "program": "${workspaceFolder}\\03_fundamentos\\11_custom_filter\\main.js"
         }
     ]
 }
