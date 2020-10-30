@@ -1,23 +1,25 @@
 <html>
-  <body>
+
+<body>
     <main>
-      <span>Esto es un span</span>
-      <p>
-        Esto es un párrafo
-      </p>
-      <div>
-        Esto es un DIV
-      </div>
+        <span>Esto es un span</span>
+        <p>
+            Esto es un párrafo
+        </p>
+        <div id="div_principal">
+            Esto es un DIV
+        </div>
     </main>
 
     <script>
-      window.onload = function() {
-        let main = document.getElementsByTagName('main')[0]
-        let clonedSpan = main.getElementsByTagName('span')[0].cloneNode()
+        window.onload = function() {
+            let main = document.getElementsByTagName('main')[0]
+            let clonedSpan = main.getElementsByTagName('span')[0].cloneNode()
 
-        clonedSpan.textContent = 'Esto es otro span'
-        main.appendChild(clonedSpan)
-      }
+            clonedSpan.textContent = 'Esto es otro span'
+            main.appendChild(clonedSpan)
+        }
     </script>
-  </body>
+</body>
+
 </html>

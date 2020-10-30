@@ -5,8 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+<<<<<<< HEAD
             "name": "9-Seconds_converter",
             "program": "${workspaceFolder}\\03_fundamentos\\09_seconds_converter\\main.js",
+=======
+            "name": "12_Iterators_elections_main",
+            "program": "${workspaceFolder}\\03_fundamentos\\12_iterators\\main.js",
+>>>>>>> develop
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
@@ -14,14 +19,20 @@
             "type": "pwa-node"
         },
         {
+<<<<<<< HEAD
             "name": "8-Next_pairs",
             "program": "${workspaceFolder}\\03_fundamentos\\08_next_pairs\\main.js",
+=======
+            "name": "12_Iterators_elections",
+            "program": "${workspaceFolder}\\03_fundamentos\\12_iterators\\elections.js",
+>>>>>>> develop
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "type": "pwa-node"
         },
+<<<<<<< HEAD
 
         {
             "type": "node",
@@ -68,6 +79,16 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\03_fundamentos\\03_calculator\\main.js"
+=======
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "11_Custom_filter",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\03_fundamentos\\11_custom_filter\\main.js"
+>>>>>>> develop
         }
     ]
 }
