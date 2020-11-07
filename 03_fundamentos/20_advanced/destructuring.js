@@ -1,8 +1,10 @@
 function multiple() {
-    return ['John', 39, { score: 5560, position: 8}]
+    return ['John', 39, { score: 5560, position: 8 }]
 }
 
-let [ name, years, data ] = multiple()
+let d1 = multiple()
+
+let [name, years, data] = multiple()
 let { score, position } = data
 
 console.log(`name ${name}`);

@@ -1,6 +1,16 @@
-class Figure {
+class Point {
+    constructor(x, y) {
+        this.x = x
+        this.y = y
+    }
+}
+class Figure extends Point {
+    constructor(point) {
+        this.point = point
+    }
     print() {
         console.log('I\'m a figure');
+        console.log(`Situation ${point}`);
     }
 }
 
@@ -11,6 +21,10 @@ class Square extends Figure {
 }
 
 class Circle extends Figure {
+    constructor(radio) {
+        super()
+        this.radio = radio
+    }
 }
 
 class Triangle extends Figure {
