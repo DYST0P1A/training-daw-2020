@@ -5,32 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "12_Iterators_elections_main",
-            "program": "${workspaceFolder}\\03_fundamentos\\12_iterators\\main.js",
+            "name": "Launch Program",
+            "program": "${file}",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "type": "pwa-node"
-        },
-        {
-            "name": "12_Iterators_elections",
-            "program": "${workspaceFolder}\\03_fundamentos\\12_iterators\\elections.js",
-            "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "pwa-node"
-        },
-
-        {
-            "name": "11_Custom_filter",
-            "program": "${workspaceFolder}\\03_fundamentos\\11_custom_filter\\main.js",
-            "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "node"
         }
+        
     ]
 }

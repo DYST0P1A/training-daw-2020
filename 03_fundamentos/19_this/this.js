@@ -1,10 +1,11 @@
 const test = {
     prop: 42,
     func: function() {
-        // setTimeout(function() {
+        setTimeout(function() {
             console.log(this.prop)
-        // }, 1000)
+            console.log('Hello')
+        }, 3000)
     },
-  };
+};
 
 test.func()
