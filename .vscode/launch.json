@@ -5,98 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "name": "9-Seconds_converter",
-            "program": "${workspaceFolder}\\03_fundamentos\\09_seconds_converter\\main.js",
-=======
-            "name": "12_Iterators_elections_main",
-            "program": "${workspaceFolder}\\03_fundamentos\\12_iterators\\main.js",
->>>>>>> develop
-=======
             "name": "Launch Program",
             "program": "${file}",
->>>>>>> develop
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "type": "pwa-node"
-<<<<<<< HEAD
-        },
-        {
-<<<<<<< HEAD
-            "name": "8-Next_pairs",
-            "program": "${workspaceFolder}\\03_fundamentos\\08_next_pairs\\main.js",
-=======
-            "name": "12_Iterators_elections",
-            "program": "${workspaceFolder}\\03_fundamentos\\12_iterators\\elections.js",
->>>>>>> develop
-            "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "pwa-node"
-        },
-<<<<<<< HEAD
-
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "7-Abs",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}\\03_fundamentos\\07_abs\\main.js"
-        },
-        {
-            "name": "6-Insert_if_not_exists",
-            "program": "${workspaceFolder}\\03_fundamentos\\06_insert_if_not_exists\\main.js",
-            "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "pwa-node"
-        },
-        {
-            "name": "5-Math_array",
-            "program": "${workspaceFolder}\\03_fundamentos\\05_math_array\\main.js",
-            "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "pwa-node"
-        },
-        {
-            "name": "4-Person",
-            "program": "${workspaceFolder}\\03_fundamentos\\04_person\\main.js",
-            "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "pwa-node"
-        },
-
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "3-Calculator",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}\\03_fundamentos\\03_calculator\\main.js"
-=======
-        {
-            "type": "node",
-            "request": "launch",
-            "name": "11_Custom_filter",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}\\03_fundamentos\\11_custom_filter\\main.js"
->>>>>>> develop
-=======
->>>>>>> develop
         }
     ]
 }
